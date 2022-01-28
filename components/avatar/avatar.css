@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .avatar-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    margin: 3rem;
+  }
+  
+  .circle {
+    border-radius: 50% !important;
+    object-fit: cover;
+  }
+  
+  .square {
+    border-radius: 10% !important;
+    object-fit: cover;
+  }
+  
+  .avatar-sm {
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  .avatar-md {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .avatar-lg {
+    height: 5rem;
+    width: 5rem;
+  }
+  
