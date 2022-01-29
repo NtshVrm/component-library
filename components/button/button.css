@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+:root {
+  --primary: #22c55e;
+  --secondary: #d9f99d;
+  --error: #ef4444;
+
+  --icon-primary: #86efac;
+  --icon-secondary: #fcd34d;
+  --icon-error: #fca5a5;
+  --border-size: 2px;
+
+  --icon-primary-img: #15803d;
+  --icon-secondary-img: #b45309;
+  --icon-error-img: #b91c1c;
+}
+
+i {
+  padding: 0.2rem;
+}
+
+.button-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.button {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-family: "Oxygen", sans-serif;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.filled {
+  border: none;
+}
+
+.outline {
+  background-color: transparent;
+}
+
+.primary-filled {
+  background-color: var(--primary);
+  color: white;
+}
+.secondary-filled {
+  background-color: var(--secondary);
+}
+.error-filled {
+  background-color: var(--error);
+  color: white;
+}
+
+.primary-outline {
+  border: var(--border-size) solid var(--primary);
+  color: var(--primary);
+}
+
+.primary-outline:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.secondary-outline {
+  border: var(--border-size) solid var(--secondary);
+}
+.secondary-outline:hover {
+  background-color: var(--secondary);
+}
+
+.error-outline {
+  border: var(--border-size) solid var(--error);
+  color: var(--error);
+}
+.error-outline:hover {
+  background-color: var(--error);
+  color: white;
+}
+
+.button-icon {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  min-width: 120px;
+}
+
+.icon-primary {
+  background-color: var(--icon-primary);
+  color: var(--icon-primary-img);
+}
+
+.icon-secondary {
+  background-color: var(--icon-secondary);
+  color: var(--icon-secondary-img);
+}
+.icon-error {
+  background-color: var(--icon-error);
+  color: var(--icon-error-img);
+}
+
+.button-floating {
+  border-radius: 50%;
+  min-height: 40px;
+  min-width: 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
