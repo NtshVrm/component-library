@@ -1,0 +1,219 @@
+@import "../button/button.css";
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+:root {
+  --description: #44403c;
+
+  --discount-tag: #4ade80;
+  --discount-tag-border: #16a34a;
+
+  --badge-background: #ef4444;
+  --badge-background-folded: #dc2626;
+
+  --price: black;
+  --price-discount: #ef4444;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: gray;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: white;
+  max-height: 600px;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  padding-top: 0.5rem;
+}
+
+.card-with-badge {
+  position: relative;
+}
+
+.card-text-only {
+  max-height: 350px;
+}
+
+.card-with-overlay {
+  max-height: 510px;
+}
+
+.card-horizontal {
+  display: flex;
+  background-color: white;
+  width: 600px;
+  height: 200px;
+  padding: 1rem;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.card-with-badge::before {
+  position: absolute;
+  content: "";
+  background: var(--badge-background-folded);
+  height: 25px;
+  width: 25px;
+  top: 1.4rem;
+  right: -0.2rem;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.card-with-badge::after {
+  position: absolute;
+  content: "NEW";
+  top: 0.2rem;
+  right: -0.5rem;
+  padding: 0.3rem;
+  width: 5rem;
+  background: var(--badge-background);
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+  z-index: 0;
+}
+
+.close-button {
+  display: flex;
+  margin-right: 16rem;
+}
+
+.button-floating {
+  min-width: 15px;
+  min-height: 15px;
+  font-size: 1.2rem;
+}
+
+.card-image {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.card-image-horizontal {
+  display: flex;
+}
+
+.img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  max-width: 250px;
+  max-height: 300px;
+}
+
+.img-horizontal {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  display: flex;
+  flex-flow: row;
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-title-horizontal {
+  display: flex;
+  margin: 0.5rem;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-content {
+  display: flex;
+  flex-flow: column;
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  gap: 0.5rem;
+}
+
+.card-content-horizontal {
+  display: flex;
+  flex-flow: column;
+  min-width: 400px;
+  min-height: 200px;
+}
+
+.card-desc {
+  display: flex;
+  color: var(--description);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.discount-tag {
+  position: relative;
+  background-color: var(--discount-tag);
+  padding: 0.5rem;
+  width: 4.5rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+
+.discount-tag:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 1rem 1rem 0;
+  border-style: solid;
+  border-color: var(--discount-tag-border) #fff;
+}
+
+.card-price {
+  display: flex;
+  color: var(--price);
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.card-price-discount {
+  color: var(--price-discount);
+}
+
+.card-image-overlay {
+  position: relative;
+}
+
+.card-title-overlay {
+  position: absolute;
+  background-color: #d6d3d1;
+  top: 16.5rem;
+  padding: 0.1rem;
+  max-width: 250px;
+  opacity: 60%;
+}
+
+.button-icon {
+  min-width: 250px;
+}
+
+.button-container-horizontal {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.button-container-horizontal > .button-icon {
+  min-width: 150px;
+}
