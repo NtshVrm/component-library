@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+body {
+  font-family: "Source Code Pro", monospace;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+:root {
+  /* #300(red,green,amber,sky) @tailwind-colors */
+  --alert-error: #fca5a5;
+  --alert-success: #86efac;
+  --alert-warning: #fcd34d;
+  --alert-info: #7dd3fc;
+
+  /* #700(red,green,amber,sky) @tailwind-colors */
+  --error-content: #b91c1c;
+  --success-content: #15803d;
+  --warning-content: #b45309;
+  --info-content: #0369a1;
+}
+
+.alert-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  display: flex;
+  border-radius: 2rem;
+  width: 400px;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.alert-error {
+  background-color: var(--alert-error);
+  color: var(--error-content);
+}
+
+.alert-success {
+  background-color: var(--alert-success);
+  color: var(--success-content);
+}
+
+.alert-warning {
+  background-color: var(--alert-warning);
+  color: var(--warning-content);
+}
+.alert-info {
+  background-color: var(--alert-info);
+  color: var(--info-content);
+}
+
+.alert-message {
+  font-size: 1rem;
+  font-weight: bold;
+  flex-grow: 1;
+}
