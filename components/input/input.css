@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+:root {
+  --basic-bg: #7dd3fc;
+  --success-bg: #86efac;
+  --warning-bg: #fcd34d;
+  --error-bg: #fca5a5;
+
+  --basic-text: #0369a1;
+  --success-text: #15803d;
+  --warning-text: #b45309;
+  --error-text: #b91c1c;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+}
+
+.input-container {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  position: relative;
+}
+
+.input-box {
+  padding: 0.5rem 2rem;
+  position: relative;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+.label-input {
+  position: absolute;
+  border-radius: 2rem;
+  top: -0.5rem;
+  left: 1rem;
+  background-color: white;
+  font-weight: bold;
+}
+
+.basic {
+  border: 2px solid var(--basic-text);
+}
+
+.basic-text {
+  color: var(--basic-text);
+}
+
+.success {
+  border: 2px solid var(--success-text);
+}
+
+.success-text {
+  color: var(--success-text);
+}
+
+.warning {
+  border: 2px solid var(--warning-text);
+}
+
+.warning-text {
+  color: var(--warning-text);
+}
+
+.error {
+  border: 2px solid var(--error-text);
+}
+
+.error-text {
+  color: var(--error-text);
+}
