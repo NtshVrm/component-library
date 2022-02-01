@@ -1,18 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
+
 *{
     padding:0;
     margin:0;
 }
 
 :root{
-    --primary-color:#3b82f6
-
-
-    ;
+    --primary-color:#3b82f6;
 }
 
 body{
-    font-family: sans-serif;    
+    font-family: 'Mukta', sans-serif;
 }
 
 a{
@@ -42,7 +41,8 @@ a{
 }
 
 .nav-title{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color:white;
     
 }
 
@@ -103,11 +103,12 @@ a{
 .action-button {
     display: flex;
     align-items: center;
-    background: var(--primary-color);    
-    font-size: 1.2rem;
-    border-radius: 2rem;
-    border: none;
     position: relative;
+    background-color: var(--primary-color);
+    border-radius: 2rem; 
+    color:white;
+    border: none;  
+    font-size: 1.2rem;
     padding: 0.35em;
     padding-left: 1.2em;
     height: 2.8em;
