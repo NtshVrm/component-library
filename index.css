@@ -6,7 +6,11 @@
 }
 
 :root {
-  --primary-color: #3b82f6;
+   /* Blue #500 */
+   --primary-color: #3b82f6;
+
+   /* Blue #700 */
+   --secondary-color: #1d4ed8;
 }
 
 body {

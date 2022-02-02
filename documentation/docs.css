@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+
+@import url("../index.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* Blue #500 */
+  --primary-color: #3b82f6;
+
+  /* Blue #700 */
+  --secondary-color: #1d4ed8;
+}
+
+/* DOC SITE CSS */
+
+.listing-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 2rem;
+  grid-template-areas: " sidebar docs";
+}
+
+.sidebar-container {
+  grid-area: sidebar;
+  /* background-color: aqua; */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+  /* background-color: red; */
+  padding: 1rem;
+}
+
+.sidebar-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sidebar-item {
+  display: flex;
+  margin: 0 0 0 2rem;
+  /* background-color: green; */
+  justify-content: flex-start;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.sidebar-item:focus {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.doc-container {
+  grid-area: docs;
+  background-color: salmon;
+  display: flex;
+  flex-flow: column;
+}
