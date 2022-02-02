@@ -63,6 +63,11 @@
   font-weight: bold;
 }
 
+.sidebar-item-clicked{
+  color: var(--secondary-color);
+  font-weight:bold;
+}
+
 .doc-container {
   grid-area: docs;
   background-color: salmon;
