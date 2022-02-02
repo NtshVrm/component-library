@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="/documentation/pages/badge-docs/badge-docs.css">
     <title>Infinity | Badge</title>
 </head>
@@ -60,9 +62,178 @@
         </div>
   
         <div class="doc-container">
-          <div>THIS IS THE BADGE DOC PAGE</div>
+          <div class="component-intro">
+            <div class="component-title">BADGE</div>
+            <div class="component-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis unde
+              quaerat, repellendus vitae neque cupiditate? Cupiditate mollitia
+              deleniti, voluptatum nostrum porro adipisci vero velit corrupti
+              quaerat eveniet rerum maxime facilis!
+            </div>
+          </div>
+  
+          <div class="component-content">
+            <div class="component-subtitle">Status Badge</div>
+  
+            <!-- COMPONENT -->
+            <div class="badge-container">
+              <div class="badge-on-avatar">
+                <img class="avatar-sm circle" src="https://picsum.photos/200/300" alt="image" />
+                <span class="badge online status-sm"></span>
+              </div>
+        
+              <div class="badge-on-avatar">
+                <img class="avatar-md circle" src="https://picsum.photos/200/300" alt="image" />
+                <span class="badge offline status-md"></span>
+              </div>
+        
+              <div class="badge-on-avatar">
+                <img class="avatar-lg circle" src="https://picsum.photos/200/300" alt="image" />
+                <span class="badge busy status-lg"></span>
+              </div>
+            </div>
+  
+            <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+
+&ltdiv class="badge-container">
+
+  &lt!--SMALL CIRCLE ONLINE STATUS -->
+  &ltdiv class="badge-on-avatar">
+    &ltimg class="avatar-sm circle" src="paste your URL here" alt="image" />
+    &ltspan class="badge online status-sm">&lt/span>
+  &lt/div>
+  
+  &lt!-- MEDIUM CIRCLE OFFLINE STATUS -->
+  &ltdiv class="badge-on-avatar">
+    &ltimg class="avatar-md circle" src="paste your URL here" alt="image" />
+    &ltspan class="badge offline status-md">&lt/span>
+  &lt/div>
+
+  &lt!-- LARGE CIRCLE BUSY STATUS -->
+  &ltdiv class="badge-on-avatar">
+    &ltimg class="avatar-lg circle" src="paste your URL here" alt="image" />
+    &ltspan class="badge busy status-lg">&lt/span>
+  &lt/div>
+
+&lt/div>
+ 
+                            </code></pre>
+            </div>
+            
+            <div class="component-subtitle">Number Badge</div>
+
+            <!-- COMPONENT -->
+            <div class="badge-container">
+              <div class="badge-on-avatar">
+                <img class="avatar-sm square" src="https://picsum.photos/200/300" alt="image" />
+                <span class="badge number-sm">9+</span>
+              </div>
+        
+              <div class="badge-on-avatar">
+                <img class="avatar-md square" src="https://picsum.photos/200/300" alt="image" />
+                <span class="badge number-md">9+</span>
+              </div>
+        
+              <div class="badge-on-avatar">
+                <img class="avatar-lg square" src="https://picsum.photos/200/300" alt="image" />
+                <span class="badge number-lg">9+</span>
+              </div>
+            </div>
+
+             <!-- CODE SNIPPET -->
+             <div class="code-snippet">
+              <pre><code class="language-html">
+
+&ltdiv class="badge-container">
+
+&lt!-- NUMBER BADGE SMALL  -->
+  &ltdiv class="badge-on-avatar">
+    &ltimg class="avatar-sm square" src="paste your URL here" alt="image" />
+    &ltspan class="badge number-sm">9+&lt/span>
+  &lt/div>
+
+  &lt!-- NUMBER BADGE MEDIUM  -->
+  &ltdiv class="badge-on-avatar">
+    &ltimg class="avatar-md square" src="paste your URL here" alt="image" />
+    &ltspan class="badge number-md">9+&lt/span>
+  &lt/div>
+
+  &lt!-- NUMBER BADGE LARGE  -->
+  &ltdiv class="badge-on-avatar">
+    &ltimg class="avatar-lg square" src="paste your URL here" alt="image" />
+    &ltspan class="badge number-lg">9+&lt/span>
+  &lt/div>
+&lt/div>
+            
+ 
+                            </code></pre>
+            </div>
+             
+            <div class="component-subtitle">Number Badge on Icon</div>
+
+            <!-- COMPONENT -->
+            <div class="badge-container">
+              <div class="badge-on-icon">
+                <img class="icon-sm" src="/images/envelope-solid.svg" alt="svg" />
+                <span class="badge number-sm">9+</span>
+              </div>
+        
+              <div class="badge-on-icon">
+                <img class="icon-md" src="/images/bell-solid.svg" alt="svg" />
+                <span class="badge number-md">9+</span>
+              </div>
+        
+              <div class="badge-on-icon">
+                <img class="icon-lg" src="/images/shopping-cart-solid.svg" alt="svg" />
+                <span class="badge number-lg">9+</span>
+              </div>
+            </div>
+
+            <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+
+&ltdiv class="badge-container">
+
+&lt!-- NUMBER BADGE SMALL ON ICON  -->
+&ltdiv class="badge-on-icon">
+  &ltimg class="icon-sm" src="paste your URL here" alt="svg" />
+  &ltspan class="badge number-sm">9+&lt/span>
+&lt/div>
+
+&lt!-- NUMBER BADGE SMALL ON ICON -->
+&ltdiv class="badge-on-icon">
+  &ltimg class="icon-md" src="paste your URL here" alt="svg" />
+  &ltspan class="badge number-md">9+&lt/span>
+&lt/div>
+
+&lt!-- NUMBER BADGE SMALL ON ICON -->
+&ltdiv class="badge-on-icon">
+  &ltimg class="icon-lg" src="paste your URL here" alt="svg" />
+  &ltspan class="badge number-lg">9+&lt/span>
+&lt/div>
+&lt/div>
+            
+ 
+                            </code></pre>
+            </div>
+
+          </div>
         </div>
       </main>
     
+
+
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+      integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      hljs.highlightAll();
+    </script>
 </body>
 </html>

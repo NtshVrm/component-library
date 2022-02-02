@@ -20,7 +20,7 @@
 .listing-container {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-column-gap: 2rem;
+  grid-column-gap: 1rem;
   grid-template-areas: " sidebar docs";
 }
 
@@ -29,9 +29,8 @@
   /* background-color: aqua; */
   display: flex;
   flex-flow: column;
-  justify-content: center;
   align-items: flex-start;
-  padding: 2rem;
+  padding: 1rem;
   gap: 1rem;
 }
 
@@ -70,7 +69,41 @@
 
 .doc-container {
   grid-area: docs;
-  background-color: salmon;
+  /* background-color: salmon; */
   display: flex;
   flex-flow: column;
+}
+
+.component-intro{
+  display: flex;
+  flex-flow:column;
+  /* background-color: aqua; */
+  padding:2rem;
+  gap:1rem;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.component-title{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.component-content{
+  display: flex;
+  flex-flow:column;
+  /* background-color: lightgreen; */
+  padding:2rem;
+  gap:1rem;
+}
+
+.component-subtitle{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.code-snippet{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--secondary-color);
+  padding-bottom: 2rem;
 }

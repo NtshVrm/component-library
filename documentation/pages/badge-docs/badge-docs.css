@@ -1,1 +1,40 @@
+@import url("/components/badge/badge.css");
+
 @import url("/documentation/docs.css");
+
+pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align:justify;
+    max-width: max-content;
+    font-size: 1rem;
+}
+
+/* BADGE.CSS POSITION FIX */
+.number-sm{
+    left:2rem;
+    bottom:2.5rem;
+}
+
+.number-md{
+    left:3rem;
+    bottom:3.5rem;
+}
+
+.number-lg{
+    left:4rem;
+    bottom:4.5rem;
+}
+
+.icon-sm {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.icon-md {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.icon-lg {
+    height: 4.5rem;
+    width: 4.5rem;
+}
