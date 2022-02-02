@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/documentation/pages/button-docs/button-docs.css">
     <title>Infinity | Button</title>
+    <script
+    src="https://kit.fontawesome.com/f80c68505b.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body>
 
@@ -61,9 +66,165 @@
         </div>
   
         <div class="doc-container">
-          <div>THIS IS THE BUTTON DOC PAGE</div>
+          
+          <div class="component-intro">
+            <div class="component-title">BUTTON</div>
+            <div class="component-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis unde
+              quaerat, repellendus vitae neque cupiditate? Cupiditate mollitia
+              deleniti, voluptatum nostrum porro adipisci vero velit corrupti
+              quaerat eveniet rerum maxime facilis!
+            </div>
+          </div>
+  
+          <div class="component-content">
+    
+            <!-- COMPONENT -->
+            <div class="component-subtitle">FILLED BUTTON</div>
+
+            <div class="button-container">
+              <button class="button filled primary-filled">Primary</button>
+              <button class="button filled secondary-filled">Secondary</button>
+              <button class="button filled error-filled">Error</button>
+            </div>
+
+
+             <!-- CODE SNIPPET -->
+             <div class="code-snippet">
+              <pre><code class="language-html">
+&ltdiv class="button-container">
+
+  &lt!-- PRIMARY FILLED BUTTON -->
+  &ltbutton class="button filled primary-filled">Primary&lt/button>
+
+  &lt!-- SECONDARY FILLED BUTTON -->
+  &ltbutton class="button filled secondary-filled">Secondary&lt/button>
+  
+  &lt!-- ERROR FILLED BUTTON -->
+  &ltbutton class="button filled error-filled">Error&lt/button>
+
+&lt/div>
+             </code></pre>
+            </div>
+
+
+             <!-- COMPONENT -->
+             <div class="component-subtitle">OUTLINE BUTTON</div>
+
+             <div class="button-container">
+              <button class="button outline primary-outline">Primary</button>
+              <button class="button outline secondary-outline">Secondary</button>
+              <button class="button outline error-outline">Error</button>
+            </div>
+
+
+              <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+
+&ltdiv class="button-container">
+
+  &lt!-- PRIMARY OUTLINE BUTTON -->
+  &ltbutton class="button outline primary-outline">Primary&lt/button>
+
+  &lt!-- SECONDARY OUTLINE BUTTON -->
+  &ltbutton class="button outline secondary-outline">Secondary&lt/button>
+
+  &lt!-- ERROR OUTLINE BUTTON -->
+  &ltbutton class="button outline error-outline">Error&lt/button>
+
+&lt/div>
+             </code></pre>
+            </div>
+
+
+              <!-- COMPONENT -->
+            <div class="component-subtitle">BUTTON WITH ICON</div>
+
+            <div class="button-container">
+              <button class="button button-icon icon-primary">
+                <i class="icon-primary-img fas fa-arrow-circle-right"></i>Checkout
+              </button>
+              <button class="button button-icon icon-secondary">
+                <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
+              </button>
+              <button class="button button-icon icon-error">
+                <i class="icon-error-img fas fa-trash"></i>Remove
+              </button>
+            </div>
+        
+          
+             <!-- CODE SNIPPET -->
+             <div class="code-snippet">
+              <pre><code class="language-html">
+
+&ltdiv class="button-container">
+
+  &lt!-- ICON PRIMARY BUTTON -->
+  &ltbutton class="button button-icon icon-primary">
+    &lti class="icon-primary-img fas fa-arrow-circle-right">&lt/i>Checkout
+  &lt/button>
+
+  &lt!-- ICON SECONDARY BUTTON -->
+  &ltbutton class="button button-icon icon-secondary">
+    &lti class="icon-secondary-img fas fa-shopping-cart">&lt/i>Add to Cart
+  &lt/button>
+
+  &lt!-- ICON ERROR BUTTON -->
+  &ltbutton class="button button-icon icon-error">
+    &lti class="icon-error-img fas fa-trash">&lt/i>Remove
+  &lt/button>
+
+&lt/div>
+             </code></pre>
+            </div>
+
+
+             <!-- COMPONENT -->
+             <div class="component-subtitle">FLOATING ACTION BUTTON</div>
+
+             <div class="button-container">
+              <button class="button-floating primary-filled">+</button>
+              <button class="button-floating secondary-filled">+</button>
+              <button class="button-floating error-filled">+</button>
+            </div>
+
+
+              <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+
+&ltdiv class="button-container">
+
+  &lt!-- PRIMARY FLOATING ACTION BUTTON -->
+  &ltbutton class="button-floating primary-filled">+&lt/button>
+
+  &lt!-- SECONADRY FLOATING ACTION BUTTON -->
+  &ltbutton class="button-floating secondary-filled">+&lt/button>
+
+  &lt!-- ERROR FLOATING ACTION BUTTON -->
+  &ltbutton class="button-floating error-filled">+&lt/button>
+
+&lt/div>
+             </code></pre>
+            </div>
+
+  
+            
+          </div>
+
+
         </div>
       </main>
-    
+  
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+      integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      hljs.highlightAll();
+    </script>
 </body>
 </html>

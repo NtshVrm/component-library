@@ -5,6 +5,7 @@ body {
   .image-container {
     display: flex;
     flex-flow: column;
+    align-items: center;
     gap: 20px;
   }
   

@@ -3,11 +3,3 @@
 @import url("/documentation/docs.css");
 
 
-pre{
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align:justify;
-    max-width: max-content;
-    font-size: 1rem;
-}
-
