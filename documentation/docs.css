@@ -58,6 +58,9 @@ pre {
 .sidebar-heading {
   font-size: 1.5rem;
   font-weight: bold;
+  text-transform: uppercase;
+  color:var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .sidebar-item {
@@ -67,7 +70,8 @@ pre {
   justify-content: flex-start;
   padding: 0.5rem;
   font-size: 1.2rem;
-  color: black;   
+  color: black;
+  text-transform: uppercase;   
 }
 
 .sidebar-item:focus {
@@ -78,6 +82,7 @@ pre {
 .sidebar-item-clicked {
   color: var(--secondary-color);
   font-weight: bold;
+  font-style: italic;
 }
 
 .doc-container {
@@ -99,7 +104,8 @@ pre {
 .component-title {
   font-size: 3rem;
   font-weight: bold;
-  color:var(--primary-color);
+  color:var(--secondary-color);
+  text-transform: uppercase;
 }
 
 .component-content {

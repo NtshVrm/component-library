@@ -1,1 +1,64 @@
 @import url("/documentation/docs.css");
+
+.color-scheme{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+}
+
+.color-scheme-item{
+    padding: 5rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.primary{
+    background-color: #3b82f6;
+}
+
+.secondary{
+    background-color: #1d4ed8;
+}
+
+.success{
+    background-color:#86efac;
+}
+
+.warning{
+    background-color:#fcd34d;
+}
+
+.error{
+    background-color: #fca5a5;
+}
+
+.color-tag{
+    display: flex;
+    position: absolute;
+    bottom:-3rem;
+    left:0.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.scheme-highlight{
+    background-color: var(--highlight-color);
+    padding:0.2rem;
+    border-radius: 1rem;
+}
+
+.reference-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width : 800px){
+.color-scheme-item{
+    padding:3rem;
+  }
+
+.color-tag{
+    font-size:0.8rem;
+  }
+}
