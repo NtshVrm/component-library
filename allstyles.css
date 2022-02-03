@@ -1,4 +1,7 @@
 
+/* DOCS CSS */
+@import url("/documentation/docs.css");
+
 /* ALERT CSS */
 @import url("/components/alert/alert.css");
 
