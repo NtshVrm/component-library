@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/documentation/pages/card-docs/card-docs.css">
+    <title>Infinity | Card</title>
+    <script
+    src="https://kit.fontawesome.com/f80c68505b.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-logo">
+          <img class="logo" src="/images/infinity-logo.png" />
+          <div><a class="nav-title" href="/index.html">INFINITY UI</a></div>
+        </div>
+        <div class="nav-icon hidden">
+          <a
+            class="nav-button"
+            href="https://github.com/NtshVrm"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="nav-button"
+            href="https://www.linkedin.com/in/kc-nitish-varma/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            class="nav-button"
+            href="https://twitter.com/NtshVrmTech"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </header>
+  
+      <main class="listing-container">
+        <div class="sidebar-container">
+          <div class="sidebar">
+            <div class="sidebar-heading">Getting Started</div>
+            <a class="sidebar-item" href="/documentation/docs.html">Installation</a>
+          <a class="sidebar-item" href="/documentation/pages/colors-docs/colors-docs.html">Colors</a>
+          <a class="sidebar-item" href="/documentation/pages/typography-docs/typo-docs.html">Typography</a>
+          </div>
+  
+          <div class="sidebar">
+            <div class="sidebar-heading">Components</div>
+            <a class="sidebar-item" href="/documentation/pages/avatar-docs/avatar-docs.html">Avatar</a>
+            <a class="sidebar-item" href="/documentation/pages/badge-docs/badge-docs.html">Badge</a>
+            <a class="sidebar-item" href="/documentation/pages/alert-docs/alert-docs.html">Alert</a>
+            <a class="sidebar-item" href="/documentation/pages/button-docs/button-docs.html">Button</a>
+            <a class="sidebar-item sidebar-item-clicked" href="/documentation/pages/card-docs/card-docs.html">Card</a>
+            <a class="sidebar-item" href="/documentation/pages/image-docs/image-docs.html">Image</a>
+            <a class="sidebar-item" href="/documentation/pages/input-docs/input-docs.html">Input</a>
+          </div>
+        </div>
+  
+        <div class="doc-container">
+
+          <div class="component-intro">
+            <div class="component-title">CARDS</div>
+            <div class="component-desc">
+              Cards are used to display all relevant information about a particular item making it easily accessible for the user.
+              <br>
+              Infinity UI offers five types of cards : <code class="highlight">BADGE | DISMISS | TEXT ONLY | OVERLAY | HORIZONTAL</code>.
+            </div>
+          </div>
+  
+          <div class="component-content">
+
+            <div class="component-subtitle">CARD WITH BADGE</div>
+
+            <!-- COMPONENT -->
+            <div class="card-container">
+              <div class="card card-with-badge">
+                <div class="close-button">
+                  <button class="button-floating error-filled hidden">&times;</button>
+                </div>
+        
+                <div class="card-image">
+                  <img
+                    class="img"
+                    src="/images/max-verstappen-helmet.png"
+                    alt="card image"
+                  />
+                </div>
+        
+                <div class="card-title">
+                  <div>MAX VERSTAPPEN HELMET 2021</div>
+                </div>
+        
+                <div class="card-content">
+                  <div class="card-desc">
+                    Max Verstappen 2021 Championship Helmet Scale 1:1
+                  </div>
+        
+                  <div class="discount-tag">60% off</div>
+                  <div class="card-price">
+                    $59.99 <del class="card-price-discount"> $99.99 </del>
+                  </div>
+        
+                  <button class="button button-icon icon-secondary">
+                    <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
+                  </button>
+        
+                  <button class="button button-icon icon-primary">
+                    <i class="icon-primary-img fas fa-arrow-circle-right"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            
+            <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+&ltdiv class="card-container">
+
+  &lt!-- CARD WITH BADGE -->
+  &ltdiv class="card card-with-badge">
+    
+    &lt!-- DISMISS BUTTON HIDDEN -->
+    &ltdiv class="close-button">
+      &ltbutton class="button-floating error-filled hidden">&times;&lt/button>
+    &lt/div>
+
+    &ltdiv class="card-image">
+      &ltimg class="img" src="paste your URL here" alt="card image" />
+    &lt/div>
+
+    &ltdiv class="card-title">
+      &ltdiv>
+        &lt!-- PASTE YOUR TITLE HERE -->
+        MAX VERSTAPPEN HELMET 2021
+      &lt/div>
+    &lt/div>
+
+    &ltdiv class="card-content">
+      &ltdiv class="card-desc">
+        &lt!-- PASTE YOUR DESCRIPTION HERE -->
+        Max Verstappen 2021 Championship Helmet Scale 1:1
+      &lt/div>
+      
+      &lt!-- DISCOUNT PERCENTAGE -->
+      &ltdiv class="discount-tag">60% off&lt/div>
+      &lt!-- OFFER PRICE -->
+      &ltdiv class="card-price">
+        $59.99 
+        &lt!-- DISCOUNT PRICE -->
+        &ltdel class="card-price-discount">
+            $99.99 
+        &lt/del>
+      &lt/div>
+
+      &ltbutton class="button button-icon icon-secondary">
+        &lti class="icon-secondary-img fas fa-shopping-cart">&lt/i>Add to Cart
+      &lt/button>
+
+      &ltbutton class="button button-icon icon-primary">
+        &lti class="icon-primary-img fas fa-arrow-circle-right">&lt/i>Buy Now
+      &lt/button>
+    &lt/div>
+  &lt/div>
+
+&lt/div>
+
+             </code></pre>
+            </div>
+
+            <!-- COMPONENT -->
+
+            <div class="component-subtitle">CARD WITH DISMISS</div>
+            <div class="card-container">
+              <div class="card card-with-dismiss">
+                <div class="close-button">
+                  <button class="button-floating error-filled">&times;</button>
+                </div>
+                <div class="card-image">
+                  <img
+                    class="img"
+                    src="/images/max-verstappen-helmet.png"
+                    alt="card image"
+                  />
+                </div>
+                <div class="card-title">
+                  <div>MAX VERSTAPPEN HELMET 2021</div>
+                </div>
+                <div class="card-content">
+                  <div class="card-desc">
+                    Max Verstappen 2021 Championship Helmet Scale 1:1
+                  </div>
+                  <div class="discount-tag">60% off</div>
+                  <div class="card-price">
+                    $59.99 <del class="card-price-discount"> $99.99 </del>
+                  </div>
+        
+                  <button class="button button-icon icon-secondary">
+                    <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
+                  </button>
+        
+                  <button class="button button-icon icon-primary">
+                    <i class="icon-primary-img fas fa-arrow-circle-right"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+&ltdiv class="card-container">
+  &lt!-- CARD WITH DISMISS BUTTON -->
+  &ltdiv class="card card-with-dismiss">
+    &ltdiv class="close-button">
+      &lt!-- HIDDEN CLASS REMOVED -->
+      &ltbutton class="button-floating error-filled">&times;&lt/button>
+    &lt/div>
+    &ltdiv class="card-image">
+      &ltimg class="img" src="paste your URL here" alt="card image" />
+    &lt/div>
+    &ltdiv class="card-title">
+      &ltdiv>
+        &lt!-- PASTE YOUR TITLE HERE -->
+        MAX VERSTAPPEN HELMET 2021
+      &lt/div>
+    &lt/div>
+    &ltdiv class="card-content">
+      &ltdiv class="card-desc">
+        &lt!-- PASTE YOUR DESCRIPTION HERE -->
+        Max Verstappen 2021 Championship Helmet Scale 1:1
+      &lt/div>
+
+      &lt!-- DISCOUNT PERCENTAGE -->
+      &ltdiv class="discount-tag">60% off&lt/div>
+      &ltdiv class="card-price">
+        &lt!-- OFFER PRICE -->
+        $59.99 
+        &ltdel class="card-price-discount"> 
+          &lt!-- ACTUAL PRICE -->
+          $99.99 
+        &lt/del>
+      &lt/div>
+
+      &ltbutton class="button button-icon icon-secondary">
+        &lti class="icon-secondary-img fas fa-shopping-cart">&lt/i>Add to Cart
+      &lt/button>
+
+      &ltbutton class="button button-icon icon-primary">
+        &lti class="icon-primary-img fas fa-arrow-circle-right">&lt/i>Buy Now
+      &lt/button>
+    &lt/div>
+  &lt/div>
+
+&lt/div>
+
+             </code></pre>
+            </div>
+
+
+            <!-- COMPONENT -->
+            <div class="component-subtitle">TEXT ONLY CARD</div>
+            <div class="card-container">
+            <div class="card card-text-only">
+              <div class="close-button">
+                <button class="button-floating error-filled hidden">&times;</button>
+              </div>
+      
+              <div class="card-image">
+                <img
+                  class="img hidden"
+                  src="/images/max-verstappen-helmet.png"
+                  alt="card image"
+                />
+              </div>
+      
+              <div class="card-title">
+                <div>MAX VERSTAPPEN HELMET 2021</div>
+              </div>
+      
+              <div class="card-content">
+                <div class="card-desc">
+                  Max Verstappen 2021 Championship Helmet Scale 1:1
+                </div>
+      
+                <div class="discount-tag">60% off</div>
+                <div class="card-price">
+                  $59.99 <del class="card-price-discount"> $99.99 </del>
+                </div>
+      
+                <button class="button button-icon icon-secondary">
+                  <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
+                </button>
+      
+                <button class="button button-icon icon-primary">
+                  <i class="icon-primary-img fas fa-arrow-circle-right"></i>Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+           
+            <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+  &ltdiv class="card-container">
+
+    &lt!-- TEXT_ONLY CARD -->
+    &ltdiv class="card card-text-only">
+      &ltdiv class="close-button">
+        &ltbutton class="button-floating error-filled hidden">&times;&lt/button>
+      &lt/div>
+      
+      &lt!-- IMAGE HIDDEN -->
+      &ltdiv class="card-image">
+        &ltimg class="img hidden" src="/images/max-verstappen-helmet.png" alt="card image" />
+      &lt/div>
+      &ltdiv class="card-title">
+      &ltdiv>
+        &lt!-- PASTE YOUR TITLE HERE -->
+        MAX VERSTAPPEN HELMET 2021
+      &lt/div>
+    &lt/div>
+    &ltdiv class="card-content">
+      &ltdiv class="card-desc">
+        &lt!-- PASTE YOUR DESCRIPTION HERE -->
+        Max Verstappen 2021 Championship Helmet Scale 1:1
+      &lt/div>
+
+      &lt!-- DISCOUNT PERCENTAGE -->
+      &ltdiv class="discount-tag">60% off&lt/div>
+      &ltdiv class="card-price">
+        &lt!-- OFFER PRICE -->
+        $59.99 
+        &ltdel class="card-price-discount"> 
+          &lt!-- ACTUAL PRICE -->
+          $99.99 
+        &lt/del>
+      &lt/div>
+
+      &ltbutton class="button button-icon icon-secondary">
+        &lti class="icon-secondary-img fas fa-shopping-cart">&lt/i>Add to Cart
+      &lt/button>
+
+      &ltbutton class="button button-icon icon-primary">
+        &lti class="icon-primary-img fas fa-arrow-circle-right">&lt/i>Buy Now
+      &lt/button>
+    &lt/div>
+  &lt/div>
+
+&lt/div>
+             </code></pre>
+            </div>
+
+
+            <!-- COMPONENT -->
+            <div class="component-subtitle">CARD WITH TEXT OVERLAY</div>
+            <div class="card-container">
+              <div class="card card-with-overlay">
+                <div class="close-button">
+                  <button class="button-floating error-filled hidden">&times;</button>
+                </div>
+        
+                <div class="card-image card-image-overlay">
+                  <img
+                    class="img"
+                    src="/images/max-verstappen-helmet.png"
+                    alt="card image"
+                  />
+                </div>
+        
+                <div class="card-title card-title-overlay">
+                  <div>MAX VERSTAPPEN HELMET 2021</div>
+                </div>
+        
+                <div class="card-content">
+                  <div class="card-desc hidden">
+                    Max Verstappen 2021 Championship Helmet Scale 1:1
+                  </div>
+        
+                  <div class="discount-tag">60% off</div>
+                  <div class="card-price">
+                    $59.99 <del class="card-price-discount"> $99.99 </del>
+                  </div>
+        
+                  <button class="button button-icon icon-secondary">
+                    <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
+                  </button>
+        
+                  <button class="button button-icon icon-primary">
+                    <i class="icon-primary-img fas fa-arrow-circle-right"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- CODE SNIPPET -->
+            <div class="code-snippet">
+              <pre><code class="language-html">
+&ltdiv class="card-container">
+  &lt!-- CARD WITH TEXT OVERLAY -->
+  &ltdiv class="card card-with-overlay">
+    &lt!-- DISMISS BUTTON HIDDEN -->
+    &ltdiv class="close-button">
+      &ltbutton class="button-floating error-filled hidden">&times;&lt/button>
+    &lt/div>
+
+    &ltdiv class="card-image card-image-overlay">
+      &ltimg class="img" src="/images/max-verstappen-helmet.png" alt="card image" />
+    &lt/div>
+    
+    &lt!-- OVERLAY TITLE -->
+    &ltdiv class="card-title card-title-overlay">
+      &ltdiv>MAX VERSTAPPEN HELMET 2021&lt/div>
+    &lt/div>
+
+    &lt!-- DESCRIPTION HIDDEN -->
+    &ltdiv class="card-content">
+      &ltdiv class="card-desc hidden">
+        Max Verstappen 2021 Championship Helmet Scale 1:1
+      &lt/div>
+
+      &lt!-- DISCOUNT PERCENTAGE -->
+    &ltdiv class="discount-tag">60% off&lt/div>
+    &ltdiv class="card-price">
+      &lt!-- OFFER PRICE -->
+      $59.99 
+      &ltdel class="card-price-discount"> 
+      &lt!-- ACTUAL PRICE -->
+      $99.99 
+      &lt/del>
+    &lt/div>
+
+    &ltbutton class="button button-icon icon-secondary">
+      &lti class="icon-secondary-img fas fa-shopping-cart">&lt/i>Add to Cart
+    &lt/button>
+
+    &ltbutton class="button button-icon icon-primary">
+      &lti class="icon-primary-img fas fa-arrow-circle-right">&lt/i>Buy Now
+    &lt/button>
+      &lt/div>
+  &lt/div>
+
+&lt/div>
+             </code></pre>
+            </div>
+
+
+            <!-- COMPONENT -->
+            <div class="component-subtitle">HORIZONTAL CARD</div>
+            <div class="card-container">
+              <div class="card-horizontal">
+                <div class="card-image-horizontal">
+                  <img
+                    class="img-horizontal"
+                    src="/images/max-verstappen-helmet.png"
+                    alt="card image"
+                  />
+                </div>
+        
+                <div class="card-content-horizontal">
+                  <div class="card-title-horizontal">
+                    <div>MAX VERSTAPPEN HELMET 2021</div>
+                  </div>
+        
+                  <div class="card-content">
+                    <div class="card-desc">
+                      Max Verstappen 2021 Championship Helmet Scale 1:1
+                    </div>
+        
+                    <div class="discount-tag">60% off</div>
+                    <div class="card-price">
+                      $59.99 <del class="card-price-discount"> $99.99 </del>
+                    </div>
+                  </div>
+                  <div class="button-container-horizontal">
+                    <button class="button button-icon icon-secondary">
+                      <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
+                    </button>
+                    <button class="button button-icon icon-primary">
+                      <i class="icon-primary-img fas fa-arrow-circle-right"></i>Checkout
+                    </button>
+                  </div>
+                </div>
+
+            </div>
+
+          </div>
+          <!-- CODE SNIPPET -->
+          <div class="code-snippet">
+            <pre><code class="language-html">
+&ltdiv class="card-container">
+
+  &lt!-- CARD HORIZONTAL -->
+  &ltdiv class="card-horizontal">
+    &lt!-- HORIZONTAL IMAGE -->
+    &ltdiv class="card-image-horizontal">
+      &ltimg class="img-horizontal" src="/images/max-verstappen-helmet.png" alt="card image" />
+    &lt/div>
+    
+    &lt!-- HORIZONTAL CONTENT -->
+    &ltdiv class="card-content-horizontal">
+      &ltdiv class="card-title-horizontal">
+        &ltdiv>MAX VERSTAPPEN HELMET 2021&lt/div>
+      &lt/div>
+
+      &ltdiv class="card-content">
+        &ltdiv class="card-desc">
+          Max Verstappen 2021 Championship Helmet Scale 1:1
+        &lt/div>
+
+        &ltdiv class="discount-tag">60% off&lt/div>
+        &ltdiv class="card-price">
+          $59.99 &ltdel class="card-price-discount"> $99.99 &lt/del>
+        &lt/div>
+      &lt/div>
+
+      &lt!-- HORIZONTAL BUTTON CONTAINER -->
+      &ltdiv class="button-container-horizontal">
+        &ltbutton class="button button-icon icon-secondary">
+          &lti class="icon-secondary-img fas fa-shopping-cart">&lt/i>Add to Cart
+        &lt/button>
+        &ltbutton class="button button-icon icon-primary">
+          &lti class="icon-primary-img fas fa-arrow-circle-right">&lt/i>Checkout
+        &lt/button>
+      &lt/div>
+    &lt/div>
+
+&lt/div>
+
+&lt/div>
+           </code></pre>
+          </div>
+
+
+        </div>
+
+      </main>
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+      integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    
+</body>
+</html>
