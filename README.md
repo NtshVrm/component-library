@@ -51,7 +51,7 @@ Infinity UI offers four types of alerts @ https://infinityui.netlify.app/documen
 
 Avatars are commonly used to represent a users visual identity.
 
-Infinity UI offers the following avatars  in sizes SMALL | MEDIUM | LARGE @ https://infinityui.netlify.app/documentation/pages/avatar-docs/avatar-docs.html
+Infinity UI offers the following avatars  in sizes `SMALL | MEDIUM | LARGE` @ https://infinityui.netlify.app/documentation/pages/avatar-docs/avatar-docs.html
 
 - Circle Avatars
 - Square Avatars
@@ -63,7 +63,7 @@ Infinity UI offers the following avatars  in sizes SMALL | MEDIUM | LARGE @ http
 Badges are used to display vital information like status/number to a user in a quick to see manner.
 
 
-Infinity UI offers the following badges in sizes SMALL | MEDIUM | LARGE @ https://infinityui.netlify.app/documentation/pages/badge-docs/badge-docs.html
+Infinity UI offers the following badges in sizes `SMALL | MEDIUM | LARGE` @ https://infinityui.netlify.app/documentation/pages/badge-docs/badge-docs.html
 
 - Status Badge
 - Number Badge
@@ -75,7 +75,7 @@ Infinity UI offers the following badges in sizes SMALL | MEDIUM | LARGE @ https:
 
 Buttons are the simplest form of user interaction and act as indicators to a user about necessary actions.
 
-Infinity UI offers the following types of buttons in PRIMARY | SECONDARY | ERROR color themes @ https://infinityui.netlify.app/documentation/pages/button-docs/button-docs.html
+Infinity UI offers the following types of buttons in `PRIMARY | SECONDARY | ERROR` color themes @ https://infinityui.netlify.app/documentation/pages/button-docs/button-docs.html
 
 - Filled
 - Outline
