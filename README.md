@@ -2,7 +2,6 @@
 
 <img alt="logo" src="/images/infinity-logo.png" width="150px" height="150px" />
 
-![GitHub Dark](https://github.com/NtshVrm/component-library/blob/dev/images/infinity-logo.png#gh-light-mode-only)
 # Infinity UI
 
 Infinity UI is a lightweight, customisable and accessible CSS library that provides a collection of simple and fundamental components , enabling you to build your websites with ease.
