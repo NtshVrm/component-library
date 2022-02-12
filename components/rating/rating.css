@@ -5,6 +5,7 @@
 
 :root{
     --rating: #FCD34D;
+    --custom: #a855f7;
 }
 
 .rating-container{
@@ -12,4 +13,9 @@
     padding: 1rem;
     font-size: 2rem;
     color: var(--rating);
+    gap: 0.2rem;
+}
+
+.custom{
+    color: var(--custom);
 }
