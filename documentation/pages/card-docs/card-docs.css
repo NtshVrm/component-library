@@ -1,0 +1,42 @@
+@import url("/components/card/card.css");
+@import url("/documentation/docs.css");
+
+body{
+    background-color: white;
+}
+
+.card{
+    font-family: "Oxygen", sans-serif;  
+}
+
+.card-horizontal{
+    font-family: "Oxygen", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+
+.card-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* background-color: red; */
+    padding:1rem;
+}
+
+.card-with-overlay{
+    position: relative;
+}
+
+
+.card-title-overlay{
+    position: absolute;
+    top:14rem;
+}
+
+.button-floating {
+    border-radius: 50%;
+    min-height: 25px;
+    min-width: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
