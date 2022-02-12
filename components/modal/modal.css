@@ -30,7 +30,8 @@
 }
 
 .modal-close{
-    color: var(--error)
+    color: var(--error);
+    cursor: pointer;
 }
 
 .modal-body{
