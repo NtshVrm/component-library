@@ -1,0 +1,8 @@
+@import url("/components/rating/rating.css");
+@import url("/documentation/docs.css");
+
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
