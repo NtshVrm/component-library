@@ -15,8 +15,8 @@
   src="https://kit.fontawesome.com/f80c68505b.js"
   crossorigin="anonymous"
 ></script>
-    <link rel="stylesheet" href="/documentation/pages/rating-docs/rating-docs.css">
-    <title>Infinity | Rating</title>
+    <link rel="stylesheet" href="/documentation/pages/toast-docs/toast-docs.css">
+    <title>Infinity | Toast</title>
 </head>
 <body>
     <header class="navbar">
@@ -102,98 +102,60 @@
               >Modal</a
             >
             <a
-              class="sidebar-item sidebar-item-clicked"
+              class="sidebar-item"
               href="/documentation/pages/rating-docs/rating-docs.html"
               >Rating</a
             >
             <a
-            class="sidebar-item"
-            href="/documentation/pages/slider-docs/slider-docs.html"
-            >Slider</a
-          >
-          <a
-            class="sidebar-item"
-            href="/documentation/pages/grid-docs/grid-docs.html"
-            >Grid</a
-          >
-          <a
-            class="sidebar-item"
-            href="/documentation/pages/toast-docs/toast-docs.html"
-            >Toast</a
-          >
+              class="sidebar-item"
+              href="/documentation/pages/slider-docs/slider-docs.html"
+              >Slider</a
+            >
+            <a
+              class="sidebar-item"
+              href="/documentation/pages/grid-docs/grid-docs.html"
+              >Grid</a
+            >
+            <a
+              class="sidebar-item sidebar-item-clicked"
+              href="/documentation/pages/toast-docs/toast-docs.html"
+              >Toast</a
+            >
           </div>
         </div>
   
         <div class="doc-container">
           <div class="component-intro">
-            <div class="component-title">Rating</div>
+            <div class="component-title">Toast</div>
             <div class="component-desc">
-              Ratings are used as an indication tool to a user.
+              Toasts are a class of pop-ups requiring user action that appear at the bottom of your screen.
               <br>
-              Infinity UI offer ratings as follows <code class="highlight"> REGULAR | HALF-STAR | CUSTOM</code>.
+              Infinity UI offers the follwing toast component. 
             </div>
           </div>
   
           <div class="component-content">
             <!-- COMPONENT -->
-            <div class="component-subtitle">RATING</div>
+            <div class="component-subtitle">TOAST</div>
             <div class="container">
-                <div class="rating-container">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div> 
-                <div class="rating-container">
-                    <!-- WITH HALF STAR -->
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
+                <div class="toast-container">
+                    <div class="toast-message">Can't process request. Retry in 5 seconds.</div>
+                    <div class="retry-button">Retry</div>
+                    <div class="close-button"><i class="fas fa-times"></i></div>
                 </div>
-                <div class="rating-container custom">
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="far fa-heart"></i>
-                    <i class="far fa-heart"></i>
-                </div> 
             </div>
             
-  
+
             <!-- CODE SNIPPET -->
             <div class="code-snippet">
               <pre><code class="language-html">
-        &lt!-- REGULAR RATING -->
-&ltdiv class="rating-container">
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star">&lt/i>
-    &lti class="far fa-star">&lt/i>
-    &lti class="far fa-star">&lt/i>
-&lt/div> 
-
-        &lt!-- WITH HALF STAR -->
-&ltdiv class="rating-container">
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star-half-alt">&lt/i>
-    &lti class="far fa-star">&lt/i>
-    &lti class="far fa-star">&lt/i>
+&ltdiv class="toast-container">
+    &ltdiv class="toast-message">Can't process request. Retry in 5 seconds.&lt/div>
+    &ltdiv class="retry-button">Retry&lt/div>
+    &ltdiv class="close-button">&lti class="fas fa-times">&lt/i>&lt/div>
 &lt/div>
-
-        &lt!-- WITH CUSTOM ICON -->
-&ltdiv class="rating-container custom">
-    &lti class="fas fa-heart">&lt/i>
-    &lti class="fas fa-heart">&lt/i>
-    &lti class="fas fa-heart">&lt/i>
-    &lti class="far fa-heart">&lt/i>
-    &lti class="far fa-heart">&lt/i>
-&lt/div> 
    </code></pre>
-            </div>
+            </div>      
           </div>
         </div>
       </main>
