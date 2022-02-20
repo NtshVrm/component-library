@@ -31,6 +31,11 @@ To use Infinity UI in your projects, copy and paste the following link in your `
 - [Card](#card)
 - [Image](#image)
 - [Input](#input)
+- [Modal](#modal)
+- [Rating](#rating)
+- [Slider](#slider)
+- [Grid](#grid)
+- [Toast](#toast)
 
 ---
 
@@ -119,5 +124,52 @@ Infinity UI offers a basic input component with three types of validation color 
 - Success Input
 - Warning Input
 - Error Input
+
+---
+
+### Modal
+
+Modals are seperate windows within an application, most commonly dialog boxes or pop-ups.
+
+Infinity UI offers a basic modal component @ https://infinityui.netlify.app/documentation/pages/modal-docs/modal-docs.html
+
+
+---
+
+### Rating
+
+Ratings are used as an indication tool to a user.
+
+Infinity UI offers three types of ratings @ https://infinityui.netlify.app/documentation/pages/rating-docs/rating-docs.html
+
+- Regular Rating
+- Rating with Half Star
+- Rating with Custom Icon
+
+---
+
+### Slider
+
+Sliders are interactive input components. They accept values between certain minimum and maximum values.
+
+Infinity UI offers a basic slider component @ https://infinityui.netlify.app/documentation/pages/slider-docs/slider-docs.html
+
+---
+
+### Grid
+
+Grids are well..... grids
+
+Infinity UI offers two types of grid components @ https://infinityui.netlify.app/documentation/pages/grid-docs/grid-docs.html
+
+- Two Grid
+- Three Grid
+---
+
+### Toast
+
+Toasts are a class of pop-ups requiring user action that appear at the bottom of your screen.
+
+Infinity UI offers a simple toast component @ https://infinityui.netlify.app/documentation/pages/toast-docs/toast-docs.html
 
 ---
