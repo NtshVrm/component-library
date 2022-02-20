@@ -1,0 +1,11 @@
+@import url("/components/grid/grid.css");
+@import url("/documentation/docs.css");
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.italic{
+ font-style: italic;
+}

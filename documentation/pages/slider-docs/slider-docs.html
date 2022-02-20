@@ -15,8 +15,8 @@
   src="https://kit.fontawesome.com/f80c68505b.js"
   crossorigin="anonymous"
 ></script>
-    <link rel="stylesheet" href="/documentation/pages/rating-docs/rating-docs.css">
-    <title>Infinity | Rating</title>
+    <link rel="stylesheet" href="/documentation/pages/slider-docs/slider-docs.css">
+    <title>Infinity | Slider</title>
 </head>
 <body>
     <header class="navbar">
@@ -102,96 +102,54 @@
               >Modal</a
             >
             <a
-              class="sidebar-item sidebar-item-clicked"
+              class="sidebar-item"
               href="/documentation/pages/rating-docs/rating-docs.html"
               >Rating</a
             >
             <a
-            class="sidebar-item"
-            href="/documentation/pages/slider-docs/slider-docs.html"
-            >Slider</a
-          >
-          <a
-            class="sidebar-item"
-            href="/documentation/pages/grid-docs/grid-docs.html"
-            >Grid</a
-          >
-          <a
-            class="sidebar-item"
-            href="/documentation/pages/toast-docs/toast-docs.html"
-            >Toast</a
-          >
+              class="sidebar-item sidebar-item-clicked"
+              href="/documentation/pages/slider-docs/slider-docs.html"
+              >Slider</a
+            >
+            <a
+              class="sidebar-item"
+              href="/documentation/pages/grid-docs/grid-docs.html"
+              >Grid</a
+            >
+            <a
+              class="sidebar-item"
+              href="/documentation/pages/toast-docs/toast-docs.html"
+              >Toast</a
+            >
           </div>
         </div>
   
         <div class="doc-container">
           <div class="component-intro">
-            <div class="component-title">Rating</div>
+            <div class="component-title">Slider</div>
             <div class="component-desc">
-              Ratings are used as an indication tool to a user.
+              Sliders are interactive input components. They accept values between certain minimum and maximum values. 
               <br>
-              Infinity UI offer ratings as follows <code class="highlight"> REGULAR | HALF-STAR | CUSTOM</code>.
+              Infinity UI offers the follwing slider component:
             </div>
           </div>
   
           <div class="component-content">
             <!-- COMPONENT -->
-            <div class="component-subtitle">RATING</div>
+            <div class="component-subtitle">SLIDER</div>
             <div class="container">
-                <div class="rating-container">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div> 
-                <div class="rating-container">
-                    <!-- WITH HALF STAR -->
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <div class="rating-container custom">
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="far fa-heart"></i>
-                    <i class="far fa-heart"></i>
-                </div> 
+                <div class="slider-container">
+                    <input class="slider" type="range" min="$10" max="$100" value="$50" />
+                  </div>
             </div>
             
-  
+
             <!-- CODE SNIPPET -->
             <div class="code-snippet">
               <pre><code class="language-html">
-        &lt!-- REGULAR RATING -->
-&ltdiv class="rating-container">
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star">&lt/i>
-    &lti class="far fa-star">&lt/i>
-    &lti class="far fa-star">&lt/i>
-&lt/div> 
-
-        &lt!-- WITH HALF STAR -->
-&ltdiv class="rating-container">
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star">&lt/i>
-    &lti class="fas fa-star-half-alt">&lt/i>
-    &lti class="far fa-star">&lt/i>
-    &lti class="far fa-star">&lt/i>
+&ltdiv class="slider-container">
+    &ltinput class="slider" type="range" min="$10" max="$100" value="$50" />
 &lt/div>
-
-        &lt!-- WITH CUSTOM ICON -->
-&ltdiv class="rating-container custom">
-    &lti class="fas fa-heart">&lt/i>
-    &lti class="fas fa-heart">&lt/i>
-    &lti class="fas fa-heart">&lt/i>
-    &lti class="far fa-heart">&lt/i>
-    &lti class="far fa-heart">&lt/i>
-&lt/div> 
    </code></pre>
             </div>
           </div>

@@ -1,0 +1,12 @@
+@import url("/documentation/docs.css");
+@import url("/components/toast/toast.css");
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.toast-container{
+    position: inherit;
+}
