@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+:root {
+    --primary-color: #3b82f6;
+    --secondary-color: #1d4ed8;
+}
+
+.toast-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+    background-color: #080808;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.toast-message{
+    font-size: 1.2rem;
+}
+
+.retry-button{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.close-button{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
