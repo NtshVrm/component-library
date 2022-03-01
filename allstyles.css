@@ -1,4 +1,3 @@
-
 /* DOCS CSS */
 @import url("/documentation/docs.css");
 
@@ -22,3 +21,18 @@
 
 /* INPUT CSS */
 @import url("/components/input/input.css");
+
+/* MODAL CSS */
+@import url("/components/modal/modal.css");
+
+/* RATING CSS */
+@import url("/components/rating/rating.css");
+
+/* SLIDER CSS */
+@import url("/components/slider/slider.css");
+
+/* GRID CSS */
+@import url("/components/grid/grid.css");
+
+/* TOAST CSS */
+@import url("/components/toast/toast.css");
