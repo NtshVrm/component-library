@@ -19,8 +19,8 @@ Infinity UI is a lightweight, customisable and accessible CSS library that provi
 To use Infinity UI in your projects, copy and paste the following link in your `<head>` tag above all other stylesheets.
 
 ```html
-    <link rel="stylesheet" href="https://infinityui.netlify.app/allstyles.css">
-```   
+<link rel="stylesheet" href="https://infinityui.netlify.app/allstyles.css" />
+```
 
 ### Infinity UI offers the following components:
 
@@ -36,6 +36,7 @@ To use Infinity UI in your projects, copy and paste the following link in your `
 - [Slider](#slider)
 - [Grid](#grid)
 - [Toast](#toast)
+- [List](#list)
 
 ---
 
@@ -56,7 +57,7 @@ Infinity UI offers four types of alerts @ https://infinityui.netlify.app/documen
 
 Avatars are commonly used to represent a users visual identity.
 
-Infinity UI offers the following avatars  in sizes `SMALL | MEDIUM | LARGE` @ https://infinityui.netlify.app/documentation/pages/avatar-docs/avatar-docs.html
+Infinity UI offers the following avatars in sizes `SMALL | MEDIUM | LARGE` @ https://infinityui.netlify.app/documentation/pages/avatar-docs/avatar-docs.html
 
 - Circle Avatars
 - Square Avatars
@@ -67,12 +68,11 @@ Infinity UI offers the following avatars  in sizes `SMALL | MEDIUM | LARGE` @ ht
 
 Badges are used to display vital information like status/number to a user in a quick to see manner.
 
-
 Infinity UI offers the following badges in sizes `SMALL | MEDIUM | LARGE` @ https://infinityui.netlify.app/documentation/pages/badge-docs/badge-docs.html
 
 - Status Badge
 - Number Badge
-- Number Badge on Icon 
+- Number Badge on Icon
 
 ---
 
@@ -133,7 +133,6 @@ Modals are seperate windows within an application, most commonly dialog boxes or
 
 Infinity UI offers a basic modal component @ https://infinityui.netlify.app/documentation/pages/modal-docs/modal-docs.html
 
-
 ---
 
 ### Rating
@@ -164,6 +163,7 @@ Infinity UI offers two types of grid components @ https://infinityui.netlify.app
 
 - Two Grid
 - Three Grid
+
 ---
 
 ### Toast
@@ -171,5 +171,17 @@ Infinity UI offers two types of grid components @ https://infinityui.netlify.app
 Toasts are a class of pop-ups requiring user action that appear at the bottom of your screen.
 
 Infinity UI offers a simple toast component @ https://infinityui.netlify.app/documentation/pages/toast-docs/toast-docs.html
+
+---
+
+### List
+
+Lists are a number of connected items or names written or printed consecutively, typically one below the other.
+
+Infinity UI offers a three types of list components @ https://infinity-tempdev.netlify.app/documentation/pages/list-docs/list-docs.html
+
+-Unordered
+-Ordered
+-Stacked
 
 ---
