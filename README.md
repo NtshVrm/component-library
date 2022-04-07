@@ -180,8 +180,8 @@ Lists are a number of connected items or names written or printed consecutively,
 
 Infinity UI offers a three types of list components @ https://infinity-tempdev.netlify.app/documentation/pages/list-docs/list-docs.html
 
--Unordered
--Ordered
--Stacked
+- Unordered
+- Ordered
+- Stacked
 
 ---
