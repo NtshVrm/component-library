@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+* {
+  font-family: Mukta;
+}
+
+.list-container {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-evenly;
+}
+
+.unordered {
+  list-style: disc;
+}
+
+.ordered {
+  list-style: upper-roman;
+}
+
+.stacked {
+  list-style: none;
+}
+
+.list-item {
+  padding: 0.5rem;
+}
+
+.stack-item {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid;
+  padding: 1rem;
+}
