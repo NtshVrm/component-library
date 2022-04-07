@@ -1,71 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/documentation/pages/button-docs/button-docs.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css"
+      integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="/documentation/pages/button-docs/button-docs.css"
+    />
     <title>Infinity | Button</title>
     <script
-    src="https://kit.fontawesome.com/f80c68505b.js"
-    crossorigin="anonymous"
-  ></script>
-</head>
-<body>
-
+      src="https://kit.fontawesome.com/f80c68505b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="navbar">
-        <div class="nav-logo">
-          <img class="logo" src="/images/infinity-logo.png" />
-          <div><a class="nav-title" href="/index.html">INFINITY UI</a></div>
+      <div class="nav-logo">
+        <img class="logo" src="/images/infinity-logo.png" />
+        <div><a class="nav-title" href="/index.html">INFINITY UI</a></div>
+      </div>
+      <div class="nav-icon hidden">
+        <a
+          class="nav-button"
+          href="https://github.com/NtshVrm"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="nav-button"
+          href="https://www.linkedin.com/in/kc-nitish-varma/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          class="nav-button"
+          href="https://twitter.com/NtshVrmTech"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
+    </header>
+
+    <main class="listing-container">
+      <div class="sidebar-container">
+        <div class="sidebar">
+          <div class="sidebar-heading">Getting Started</div>
+          <a class="sidebar-item" href="/documentation/docs.html"
+            >Installation</a
+          >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/colors-docs/colors-docs.html"
+            >Colors</a
+          >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/typography-docs/typo-docs.html"
+            >Typography</a
+          >
         </div>
-        <div class="nav-icon hidden">
+
+        <div class="sidebar">
+          <div class="sidebar-heading">Components</div>
           <a
-            class="nav-button"
-            href="https://github.com/NtshVrm"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-github"></i
-          ></a>
+            class="sidebar-item"
+            href="/documentation/pages/avatar-docs/avatar-docs.html"
+            >Avatar</a
+          >
           <a
-            class="nav-button"
-            href="https://www.linkedin.com/in/kc-nitish-varma/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-linkedin"></i
-          ></a>
+            class="sidebar-item"
+            href="/documentation/pages/badge-docs/badge-docs.html"
+            >Badge</a
+          >
           <a
-            class="nav-button"
-            href="https://twitter.com/NtshVrmTech"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </div>
-      </header>
-  
-      <main class="listing-container">
-        <div class="sidebar-container">
-          <div class="sidebar">
-            <div class="sidebar-heading">Getting Started</div>
-            <a class="sidebar-item" href="/documentation/docs.html">Installation</a>
-          <a class="sidebar-item" href="/documentation/pages/colors-docs/colors-docs.html">Colors</a>
-          <a class="sidebar-item" href="/documentation/pages/typography-docs/typo-docs.html">Typography</a>
-          </div>
-  
-          <div class="sidebar">
-            <div class="sidebar-heading">Components</div>
-            <a class="sidebar-item" href="/documentation/pages/avatar-docs/avatar-docs.html">Avatar</a>
-            <a class="sidebar-item" href="/documentation/pages/badge-docs/badge-docs.html">Badge</a>
-            <a class="sidebar-item" href="/documentation/pages/alert-docs/alert-docs.html">Alert</a>
-            <a class="sidebar-item  sidebar-item-clicked" href="/documentation/pages/button-docs/button-docs.html">Button</a>
-            <a class="sidebar-item" href="/documentation/pages/card-docs/card-docs.html">Card</a>
-            <a class="sidebar-item" href="/documentation/pages/image-docs/image-docs.html">Image</a>
-            <a class="sidebar-item" href="/documentation/pages/input-docs/input-docs.html">Input</a>
-            <a class="sidebar-item" href="/documentation/pages/modal-docs/modal-docs.html">Modal</a>
-            <a class="sidebar-item" href="/documentation/pages/rating-docs/rating-docs.html">Rating</a>
-            <a
+            class="sidebar-item"
+            href="/documentation/pages/alert-docs/alert-docs.html"
+            >Alert</a
+          >
+          <a
+            class="sidebar-item sidebar-item-clicked"
+            href="/documentation/pages/button-docs/button-docs.html"
+            >Button</a
+          >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/card-docs/card-docs.html"
+            >Card</a
+          >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/image-docs/image-docs.html"
+            >Image</a
+          >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/input-docs/input-docs.html"
+            >Input</a
+          >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/modal-docs/modal-docs.html"
+            >Modal</a
+          >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/rating-docs/rating-docs.html"
+            >Rating</a
+          >
+          <a
             class="sidebar-item"
             href="/documentation/pages/slider-docs/slider-docs.html"
             >Slider</a
@@ -80,37 +134,45 @@
             href="/documentation/pages/toast-docs/toast-docs.html"
             >Toast</a
           >
+          <a
+            class="sidebar-item"
+            href="/documentation/pages/list-docs/list-docs.html"
+            >List</a
+          >
+        </div>
+      </div>
+
+      <div class="doc-container">
+        <div class="component-intro">
+          <div class="component-title">BUTTON</div>
+          <div class="component-desc">
+            Buttons are the simplest form of user interaction and act as
+            indicators to a user about necessary actions.
+            <br />
+            Infinity UI offers four types of buttons:
+            <code class="highlight"
+              >FILLED | OUTLINE | ICON | FLOATING ACTION</code
+            >
+            in
+            <br />
+            <code class="highlight"> PRIMARY | SECONDARY | ERROR</code> color
+            themes.
           </div>
         </div>
-  
-        <div class="doc-container">
-          
-          <div class="component-intro">
-            <div class="component-title">BUTTON</div>
-            <div class="component-desc">
-              Buttons are the simplest form of user interaction and act as indicators to a user about necessary actions.
-              <br>
-              Infinity UI offers four types of buttons: <code class="highlight">FILLED | OUTLINE | ICON | FLOATING ACTION</code>  in 
-              <br>
-              <code class="highlight"> PRIMARY | SECONDARY | ERROR</code> color themes.
-            </div>
+
+        <div class="component-content">
+          <!-- COMPONENT -->
+          <div class="component-subtitle">FILLED BUTTON</div>
+
+          <div class="button-container">
+            <button class="button filled primary-filled">Primary</button>
+            <button class="button filled secondary-filled">Secondary</button>
+            <button class="button filled error-filled">Error</button>
           </div>
-  
-          <div class="component-content">
-    
-            <!-- COMPONENT -->
-            <div class="component-subtitle">FILLED BUTTON</div>
 
-            <div class="button-container">
-              <button class="button filled primary-filled">Primary</button>
-              <button class="button filled secondary-filled">Secondary</button>
-              <button class="button filled error-filled">Error</button>
-            </div>
-
-
-             <!-- CODE SNIPPET -->
-             <div class="code-snippet">
-              <pre><code class="language-html">
+          <!-- CODE SNIPPET -->
+          <div class="code-snippet">
+            <pre><code class="language-html">
 &ltdiv class="button-container">
 
   &lt!-- PRIMARY FILLED BUTTON -->
@@ -124,22 +186,20 @@
 
 &lt/div>
              </code></pre>
-            </div>
+          </div>
 
+          <!-- COMPONENT -->
+          <div class="component-subtitle">OUTLINE BUTTON</div>
 
-             <!-- COMPONENT -->
-             <div class="component-subtitle">OUTLINE BUTTON</div>
+          <div class="button-container">
+            <button class="button outline primary-outline">Primary</button>
+            <button class="button outline secondary-outline">Secondary</button>
+            <button class="button outline error-outline">Error</button>
+          </div>
 
-             <div class="button-container">
-              <button class="button outline primary-outline">Primary</button>
-              <button class="button outline secondary-outline">Secondary</button>
-              <button class="button outline error-outline">Error</button>
-            </div>
-
-
-              <!-- CODE SNIPPET -->
-            <div class="code-snippet">
-              <pre><code class="language-html">
+          <!-- CODE SNIPPET -->
+          <div class="code-snippet">
+            <pre><code class="language-html">
 
 &ltdiv class="button-container">
 
@@ -154,28 +214,26 @@
 
 &lt/div>
              </code></pre>
-            </div>
+          </div>
 
+          <!-- COMPONENT -->
+          <div class="component-subtitle">BUTTON WITH ICON</div>
 
-              <!-- COMPONENT -->
-            <div class="component-subtitle">BUTTON WITH ICON</div>
+          <div class="button-container">
+            <button class="button button-icon icon-primary">
+              <i class="icon-primary-img fas fa-arrow-circle-right"></i>Checkout
+            </button>
+            <button class="button button-icon icon-secondary">
+              <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
+            </button>
+            <button class="button button-icon icon-error">
+              <i class="icon-error-img fas fa-trash"></i>Remove
+            </button>
+          </div>
 
-            <div class="button-container">
-              <button class="button button-icon icon-primary">
-                <i class="icon-primary-img fas fa-arrow-circle-right"></i>Checkout
-              </button>
-              <button class="button button-icon icon-secondary">
-                <i class="icon-secondary-img fas fa-shopping-cart"></i>Add to Cart
-              </button>
-              <button class="button button-icon icon-error">
-                <i class="icon-error-img fas fa-trash"></i>Remove
-              </button>
-            </div>
-        
-          
-             <!-- CODE SNIPPET -->
-             <div class="code-snippet">
-              <pre><code class="language-html">
+          <!-- CODE SNIPPET -->
+          <div class="code-snippet">
+            <pre><code class="language-html">
 
 &ltdiv class="button-container">
 
@@ -196,22 +254,20 @@
 
 &lt/div>
              </code></pre>
-            </div>
+          </div>
 
+          <!-- COMPONENT -->
+          <div class="component-subtitle">FLOATING ACTION BUTTON</div>
 
-             <!-- COMPONENT -->
-             <div class="component-subtitle">FLOATING ACTION BUTTON</div>
+          <div class="button-container">
+            <button class="button-floating primary-filled">+</button>
+            <button class="button-floating secondary-filled">+</button>
+            <button class="button-floating error-filled">+</button>
+          </div>
 
-             <div class="button-container">
-              <button class="button-floating primary-filled">+</button>
-              <button class="button-floating secondary-filled">+</button>
-              <button class="button-floating error-filled">+</button>
-            </div>
-
-
-              <!-- CODE SNIPPET -->
-            <div class="code-snippet">
-              <pre><code class="language-html">
+          <!-- CODE SNIPPET -->
+          <div class="code-snippet">
+            <pre><code class="language-html">
 
 &ltdiv class="button-container">
 
@@ -226,17 +282,12 @@
 
 &lt/div>
              </code></pre>
-            </div>
-
-  
-            
           </div>
-
-
         </div>
-      </main>
-  
-      <script
+      </div>
+    </main>
+
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
       integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
       crossorigin="anonymous"
@@ -245,5 +296,5 @@
     <script>
       hljs.highlightAll();
     </script>
-</body>
+  </body>
 </html>
